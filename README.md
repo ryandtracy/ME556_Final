@@ -12,5 +12,6 @@ The two header files are required to interface with Bluetooth serial communicati
 kinematicModel.py showed good model tracking by generating a trajectory, using inverse kinematics to generate motor speeds, then properly tracking the trajectory using forward kinematics.
 commandAndSensingPlatform.py was the human-robot interface used to develop the link between the sensors, the microcontroller, and a mapping platform.
 The mapping platform was the tkinter library for python.
+Both python scripts require the tkinter library 
 
 This project did not reach the point of having the robot do autonomous mapping.
